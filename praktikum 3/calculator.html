@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+
+</head>
+<body>
+    <div class="kotak">
+        <h1>Kalkulator sederhana</h1>
+        <div class="kotak2">
+            <input id="bil1" type="number" placeholder="Bilangan pertama">
+            <input id="bil2" type="number" placeholder="Bilangan kedua">
+
+            <div class="btn">
+                <button id="tambah" onclick="cal(this.id)">Tambah</button>
+                <button id="kurang" onclick="cal(this.id)">Kurang</button>
+            </div>
+        </div>
+        <div class="cal_hasil" id="hasil">Hasil : </div>
+    </div>
+</body>
+<script src="./styles/main.js"></script>
+</html>
